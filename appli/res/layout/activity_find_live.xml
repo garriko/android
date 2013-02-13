@@ -1,4 +1,9 @@
-
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,59 +12,101 @@
     android:orientation="vertical"
     tools:context=".FindLive" >
 
-    <TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:orientation="horizontal" >
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Sport"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Sport"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dip" />
+    </LinearLayout>
 
-    <TableRow>
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:orientation="horizontal" >
+        
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departement"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Departement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="15dip"
+         android:layout_marginLeft="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Competition"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/Competition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dip" />
+    </LinearLayout>
 
-    <TableRow>
-
-        <TextView
-            android:text="Competition"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/Competition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
-
-    <TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="15dip"
+         android:layout_marginLeft="10dip"
+        android:orientation="horizontal" >
 
         <TextView
-            android:text="Date de début"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de debut"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/DateDeDebut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </TableRow>
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dip" />
+    </LinearLayout>
 
-    <TableRow>
+  
 
         <TextView
-            android:text="Via Carte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Via une carte"
             android:textStyle="bold" />
-    </TableRow>
+   
+
+
+	
 
 </LinearLayout>
+
+
+</ScrollView>

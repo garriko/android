@@ -15,10 +15,7 @@ public class TitreActivity extends Activity {
 	{
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
 			Intent intent = new Intent(TitreActivity.this, FindLive.class);
-
-			//Intent intent2 = new Intent(v, FindLive.class);
 			startActivity(intent);
 		}
 	};
@@ -56,19 +53,7 @@ public class TitreActivity extends Activity {
 		bFavoris = (Button) findViewById(R.id.buttonFavoris);
 		bCreate = (Button) findViewById(R.id.buttonCreate);
 
-		bSearch.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(TitreActivity.this, FindLive.class);
-				startActivity(intent);
-			}	
-		}
-		);
-			
-
-
-
+		bSearch.setOnClickListener(clickListenerbuttonSearch);
 		bFavoris.setOnClickListener(clickListenerbuttonFavoris);
 		bCreate.setOnClickListener(clickListenerbuttonCreate);
 
