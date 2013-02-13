@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".FindLive" >
+
+    <TableRow>
+
+        <TextView
+            android:text="Sport"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Competition"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Competition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Competition"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/Competition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Date de début"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DateDeDebut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Via Carte"
+            android:textStyle="bold" />
+    </TableRow>
+
+</LinearLayout>

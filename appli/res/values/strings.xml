@@ -3,6 +3,10 @@
 
     <string name="app_name">LiveSports</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_settings">Settings et oui</string>
+    <string name="textButtonSearch">Chercher un live</string>
+    <string name="textButtonCreate">Creer un live</string>
+    <string name="textButtonFavoris">Lives favoris</string>
+    <string name="title_activity_find_live">FindLive</string>
 
 </resources>
